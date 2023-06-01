@@ -45,7 +45,7 @@ export default function SignIn() {
         return;
       }
       console.log("sign in error :", error.message);
-      alert("sign in error");
+      alert("sign in error : " + error.message);
     }
   };
 
